@@ -1,0 +1,15 @@
+{
+  "localVersion": "Local Version",
+  "notDownloaded": "Not downloaded",
+  "update": "Update",
+  "steps": {
+    "srcCheck": "Check resources",
+    "confCheck": "Check config",
+    "deployApp": "Deploy app"
+  },
+  "deploy": "Deploy",
+  "stop": "Stop",
+  "retry": "Retry",
+  "failed": "Execution failed, please check logs",
+  "latestVersion": "latest version"
+}

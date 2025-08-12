@@ -1,0 +1,78 @@
+.titlebar {
+  -webkit-app-region: drag;
+  user-select: none;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  padding: 0 0 0 10px;
+  background: #001529;
+  color: #fff;
+  padding-right: 96px;
+}
+
+.titlebar button {
+  -webkit-app-region: no-drag;
+}
+
+.window-controls {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-right: 8px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.logo {
+  height: 26px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.titleText {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.control-btn {
+  -webkit-app-region: no-drag;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.25s, color 0.25s;
+  color: white;
+  user-select: none;
+}
+
+.control-btn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #1890ff;
+}
+
+.close-btn:hover {
+  background-color: #ff4d4f;
+  color: white;
+}

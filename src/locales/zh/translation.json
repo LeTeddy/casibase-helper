@@ -1,0 +1,15 @@
+{
+  "localVersion": "本地版本",
+  "notDownloaded": "未下载",
+  "update": "更新",
+  "steps": {
+    "srcCheck": "检查资源文件",
+    "confCheck": "检查配置项",
+    "deployApp": "部署应用"
+  },
+  "deploy": "部署",
+  "stop": "停止",
+  "retry": "重试",
+  "failed": "执行失败，请检查日志",
+  "latestVersion": "最新版本"
+}
